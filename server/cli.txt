@@ -1,0 +1,16 @@
+yarn add @types/express -D
+yarn add ts-node
+yarn add typescript -D
+npx tsc --init //arquivo com configs para o ts
+npx ts-node src/server.ts   //equivale a node src/server.js
+yarn add ts-node-dev -D  //nodemon do ts
+
+yarn dev
+npx create-react-app web --template=typescript
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+npm run knex:migrate
+yarn add cors
+yarn add @types/cors -D
+yarn add multer @types/multer
+yarn add celebrate
+yarn add @types/hapi__joi -D
